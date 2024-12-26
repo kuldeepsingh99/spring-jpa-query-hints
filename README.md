@@ -22,8 +22,8 @@ Before using this repository, ensure you have the following installed:
 # Getting Started
 Download or clone the reposotory
 
-- Run Docker compose yaml to create Database
+- Run [Docker compose yaml](https://github.com/kuldeepsingh99/spring-jpa-query-hints/blob/main/docker-compose.yml) to create Database
 - Insert more than 300 thousands records in table
-- In CustomerRepository try to remove the Query Hints and try to call the Rest API and note down the the time
+- In CustomerRepository try to remove the [Query Hints](https://github.com/kuldeepsingh99/spring-jpa-query-hints/blob/main/src/main/java/com/portal/jpa/repository/CustomerRepository.java#L18) and try to call the Rest API and note down the the time
 - Put the Query Hints and again try to call the REST API again and note down the time
 
