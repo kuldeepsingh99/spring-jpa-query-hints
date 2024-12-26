@@ -1,1 +1,1 @@
-# spring-jpa-query-hints
+# Query Hints in Spring Data JPA
