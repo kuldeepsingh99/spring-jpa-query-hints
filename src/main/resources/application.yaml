@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: customer-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/customer
+    username: user
+    password: User@123
+  jpa:
+    properties:
+      hibernate:
+        generate_statistics: true
+    show-sql: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        type:
+          descriptor:
+            sql:
+              BasicBinder: DEBUG
+        sql: DEBUG
+        stat: DEBUG
+
+server:
+  port: 9191
